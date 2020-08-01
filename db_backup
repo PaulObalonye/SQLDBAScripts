@@ -1,0 +1,3 @@
+## Database simple backup
+BACKUP DATABASE [pastorifeanyi] TO  DISK = N'F:\backup-migration\pastorifeanyi.bak' WITH NOFORMAT, NOINIT,  NAME = N'pastorifeanyi-Full Database Backup', SKIP, NOREWIND, NOUNLOAD,  STATS = 10
+GO
